@@ -25,7 +25,7 @@ function addTask(nombreTarea, fechaTarea, completoTarea){
     nombre: formulario.elements[0].value,
     completo: false,
     //fecha
-    date: formulario.elements[0].value,
+    date: formulario.elements[1].value,
   };
 
   //agrega nuevas tareas al array
