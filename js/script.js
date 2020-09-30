@@ -21,11 +21,11 @@ let count = 0;
 function addTask(nombreTarea, fechaTarea, completoTarea){
   //objeto que contiene las caracteristicas de cada tarea
   const miTarea = {
-    id: count,
-    nombre: formulario.elements[0].value,
-    completo: false,
+    id:count,
+    nombre:nombreTarea,
+    completo:completoTarea,
     //fecha
-    date: formulario.elements[1].value,
+    date:fechaTarea,
   };
 
   //agrega nuevas tareas al array
